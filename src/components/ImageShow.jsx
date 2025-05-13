@@ -5,3 +5,5 @@ const ImageShow = ({image}) => {
     </div>
     )
 }
+
+export default ImageShow

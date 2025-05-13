@@ -18,7 +18,7 @@ const SearchBar = ({ onSubmit }) => {
 
     return(
         <div className="seach-bar">
-            <form onsubmit={handleFormSubmit}>
+            <form onSubmit={handleFormSubmit}>
                 <label>Termino de la busqueda:</label>
                 <input onChange={handleChange} value={term} />
             </form>
